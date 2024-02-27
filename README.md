@@ -45,8 +45,6 @@ Print the I/O plate with the rear face downward (stiffener ribs facing up) and u
 
 The ITX adapter plate can be printed either side facing down, but I prefer to flip it over to have the nicer finish on the top.  Again 100% infill is recommended.
 
-iStarUSA D-118V2-ITX-DT (from Monoprice [[link](https://www.monoprice.com/product?p_id=41762)]) 
-
 Supports a full-height PCIe card.  Does not properly support a half-height PCIe card.  Modification is needed.
 
 
@@ -117,7 +115,7 @@ The Noctura
 
 # Front Panel USB 2.0
 
-Connect the front panel USB cables to the 2x5 header at J14 on the CM4 I/O board.  Desolder or bend pin 10 out of the way so it does not interfere with the key plug in the front panel cable connector.
+Connect the front panel USB cables to the 2x5 header at J14 on the CM4 I/O board.  Use a 1/16" drill to drill out the pin 10 hole in the connector so it will plug into the header.
 
 
 # PCIe
@@ -125,7 +123,7 @@ Connect the front panel USB cables to the 2x5 header at J14 on the CM4 I/O board
 
 ## Bracket
 
-The iStarUSA enclosure supports a full-height PCIe bracket.  It will not work with a half-height PCIe card without modification.
+The enclosure supports both a full-height and half-height PCIe cards. Note that a card will not fit if a 3.5" hard drive is installed. I created a 3D printed bracket to hold the PCIe SATA Card.
 
 
 ## Power
@@ -161,7 +159,5 @@ Note: Pin 10 is bent out of the way to allow the enclosure’s front panel USB h
 # References
 
 Raspberry Pi CM4 I/O Board ([manual](https://datasheets.raspberrypi.com/cm4io/cm4io-datasheet.pdf))
-
-[iStarUSA D-118V2 case on Amazon](https://www.amazon.com/iStarUSA-Compact-Desktop-mini-ITX-D-118V2-ITX-DT/dp/B0053YKPLM/)
 
 [RackChoice 1U on Amazon](https://www.amazon.com/dp/B0B3MG34D1)
