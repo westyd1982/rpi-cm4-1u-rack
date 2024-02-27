@@ -3,7 +3,7 @@
 
 # Introduction
 
-This project consists of a [Mini-ITX](https://en.wikipedia.org/wiki/Mini-ITX) adapter and I/O plate to mount the [Raspberry Pi Compute Module 4 I/O board](https://www.raspberrypi.com/products/compute-module-4-io-board/) into the [RackChoice 1U Rackmount Server Chassis 9.84" Depth]([https://www.amazon.com/dp/B0B3MG34D1]).  Neither the I/O plate nor the adapter are strictly ITX-compliant; however they are a good fit for the iStarUSA enclosure.
+This project consists of a [Mini-ITX](https://en.wikipedia.org/wiki/Mini-ITX) adapter and I/O plate to mount the [Raspberry Pi Compute Module 4 I/O board](https://www.raspberrypi.com/products/compute-module-4-io-board/) into the [RackChoice 1U Rackmount Server Chassis 9.84" Depth](https://www.amazon.com/dp/B0B3MG34D1).  Neither the I/O plate nor the adapter are strictly ITX-compliant; however they are a good fit for the iStarUSA enclosure.
 
 The I/O plate includes openings for all CM4 I/O board connectors; however, the user may wish to remove the 12VDC barrel connector and/or the MicroSD card opening, depending on the use case.
 
